@@ -114,7 +114,7 @@ def init(text, resp=False):
 
 def main():
 	parser = argparse.ArgumentParser(
-		version=__version__,
+		#version=__version__,
 		formatter_class=argparse.RawTextHelpFormatter,
 		prog='knockpy',
 		description=__description__,
