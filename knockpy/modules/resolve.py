@@ -1,5 +1,5 @@
 import json
-from module import header
+from modules import header
 import socket
 import time
 #import zonetransfer
