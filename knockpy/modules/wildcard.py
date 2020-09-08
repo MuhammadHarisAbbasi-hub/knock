@@ -1,5 +1,5 @@
 import json
-import header
+import modules import header
 import socket
 import random
 
