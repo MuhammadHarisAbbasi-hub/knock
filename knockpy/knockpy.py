@@ -58,7 +58,6 @@ def print_header():
                             | |     __/ |
                             |_|    |___/ 
 """)
-
 def print_header_scan():
 	print( '\nIp Address\tStatus\tType\tDomain Name\t\t\tServer')
 	print ('----------\t------\t----\t-----------\t\t\t------')
