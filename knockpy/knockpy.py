@@ -8,7 +8,7 @@ from modules import wildcard
 from modules import save_report
 from modules import virustotal_subdomains
 
-from urlparse import urlparse
+from urllib.parse import urlparse
 
 import sys
 import json
