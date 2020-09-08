@@ -1,12 +1,12 @@
 import json
-import httplib
+import http.client
 
 def header(url, path='/', method='HEAD'):
 	headers = {}
 	response = {}
 	user_agent = "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:35.0) Gecko/20100101 Firefox/35.0"
 	try:
-		conn = httplib.HTTPConnection(url)
+		conn = http.client.HTTPConnection(url)
 		conn.putrequest(method, path)
 		conn.putheader("User-Agent", user_agent)
 		conn.endheaders()
