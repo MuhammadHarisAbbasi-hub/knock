@@ -50,14 +50,14 @@ def loadfile_wordlist(filename):
 def print_header():
 	print ("""
   _  __                 _                
- | |/ /                | |   """+__version__+""")          
+ | |/ /                | |   """+__version__+"""          
  | ' / _ __   ___   ___| | ___ __  _   _ 
  |  < | '_ \ / _ \ / __| |/ / '_ \| | | |
  | . \| | | | (_) | (__|   <| |_) | |_| |
  |_|\_\_| |_|\___/ \___|_|\_\ .__/ \__, |
                             | |     __/ |
                             |_|    |___/ 
-"""
+""")
 
 def print_header_scan():
 	print( '\nIp Address\tStatus\tType\tDomain Name\t\t\tServer')
