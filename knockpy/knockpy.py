@@ -48,9 +48,9 @@ def loadfile_wordlist(filename):
 	return filter(None, wlist)
 
 def print_header():
-	print """
+	print ("""
   _  __                 _                
- | |/ /                | |   """+__version__+"""            
+ | |/ /                | |   """+__version__+""")          
  | ' / _ __   ___   ___| | ___ __  _   _ 
  |  < | '_ \ / _ \ / __| |/ / '_ \| | | |
  | . \| | | | (_) | (__|   <| |_) | |_| |
